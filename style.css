@@ -1,15 +1,22 @@
+#projects{ -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	width:120%;
+	}
+
 
 #head {
   float: center;
-padding-bottom: 230px; 
+padding-bottom: 150px; 
  background-image:url('5.JPG');
-
+width:90%;
 }
+p{width: 90%;}
+img:hove{width:100%;}
 
-
-div{margin-right:150px;margin-left:150px; }
-body{ font:14px/1.3 'Segoe UI',Arial, sans-serif; background-colorox-shadow: 1px 1px 5px #888888;  }
-.navbar{overflow: hidden; inline-block; position: relative; left:85px;  }
+div{width:90%; }
+body{ font:14px/1.3 'Segoe UI',Arial, sans-serif; width:75%;  margin-left:250px;}
+.navbar{overflow: hidden; inline-block; position: relative; left:-40px;  width:90%; }
 .navbar li{background-color:white; position:relative; float: left;	list-style: none;  }
 .navbar li:hover{background-color: rgba(0, 0,0, 0.25); position:relative; float: left;	list-style: none;  }
 .navbar li:after{content:'.'; text-indent:-9999px; overflow:hidden; position:absolute; width:100%; height:100%; top:0; left:0; z-index:1; opacity:0;
@@ -43,7 +50,7 @@ body{ font:14px/1.3 'Segoe UI',Arial, sans-serif; background-colorox-shadow: 1px
 
 .navbar li a{
 	color: black;
-	border-right:1px solid yellowgreen;
+	border-right:0px solid yellowgreen;
 	display: inline-block;
 	margin:0px;
 	padding: 12px 35px 14px;
@@ -60,8 +67,8 @@ nav{
 	margin: 0px auto 0;
 	text-align: center;
 	position:relative;
-	width:1000px;
-	box-shadow: 0px 0px 2px 0px rgba(0, 0,0, 0.1);
+	width:100%;
+	
 }
 
   /* Scrollbar */
